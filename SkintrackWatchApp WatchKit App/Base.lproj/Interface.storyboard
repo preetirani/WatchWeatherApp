@@ -24,13 +24,16 @@
                                                     <fontDescription key="font" type="system" pointSize="10"/>
                                                 </label>
                                                 <button alignment="left" verticalAlignment="center" id="Xet-sJ-Mz2">
-                                                    <group key="contentGroup" width="30" height="30" alignment="left" layout="vertical" radius="15" id="pzO-LO-BxC" userLabel="UVGroup">
+                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="pzO-LO-BxC" userLabel="UVGroup">
                                                         <items>
-                                                            <label alignment="center" verticalAlignment="center" text="2" id="sGz-Fg-Jv0">
+                                                            <label alignment="center" verticalAlignment="center" text="2" textAlignment="center" id="sGz-Fg-Jv0">
                                                                 <fontDescription key="font" type="system" pointSize="12"/>
                                                             </label>
                                                         </items>
                                                         <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
                                                     </group>
                                                 </button>
                                             </items>
@@ -41,13 +44,16 @@
                                                     <fontDescription key="font" type="system" pointSize="10"/>
                                                 </label>
                                                 <button alignment="right" verticalAlignment="center" id="ROf-Au-c9e">
-                                                    <group key="contentGroup" width="30" height="30" alignment="left" layout="vertical" radius="15" id="ebs-gK-gtC" userLabel="AQIGroup">
+                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="ebs-gK-gtC" userLabel="AQIGroup">
                                                         <items>
-                                                            <label alignment="center" verticalAlignment="center" text="100" id="Opa-XA-jyU">
+                                                            <label alignment="center" verticalAlignment="center" text="100" textAlignment="center" id="Opa-XA-jyU">
                                                                 <fontDescription key="font" type="system" pointSize="12"/>
                                                             </label>
                                                         </items>
                                                         <color key="backgroundColor" red="0.3921568627" green="0.67450980390000004" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
                                                     </group>
                                                 </button>
                                             </items>
@@ -70,13 +76,16 @@
                                                     <fontDescription key="font" type="system" pointSize="10"/>
                                                 </label>
                                                 <button alignment="right" verticalAlignment="center" id="ZCs-rl-SR3" userLabel="TempButton">
-                                                    <group key="contentGroup" width="30" height="30" alignment="left" layout="vertical" radius="15" id="TIC-lW-OIP">
+                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="TIC-lW-OIP">
                                                         <items>
-                                                            <label width="0.80000000000000004" widthAdjustment="2" height="1" heightAdjustment="2" alignment="center" verticalAlignment="center" text="69 F" minimumScaleFactor="0.69999999999999996" id="A5n-8N-hiG">
+                                                            <label width="0.80000000000000004" widthAdjustment="2" height="1" heightAdjustment="2" alignment="center" verticalAlignment="center" text="69 F" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="A5n-8N-hiG">
                                                                 <fontDescription key="font" type="system" pointSize="12"/>
                                                             </label>
                                                         </items>
                                                         <color key="backgroundColor" red="0.3921568627" green="0.67450980390000004" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
                                                     </group>
                                                 </button>
                                             </items>
@@ -87,13 +96,16 @@
                                                     <fontDescription key="font" type="system" pointSize="10"/>
                                                 </label>
                                                 <button alignment="left" verticalAlignment="center" id="JQz-8w-PfF">
-                                                    <group key="contentGroup" width="30" height="30" alignment="left" layout="vertical" radius="15" id="MbJ-bN-xIw" userLabel="UVGroup">
+                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="MbJ-bN-xIw" userLabel="UVGroup">
                                                         <items>
-                                                            <label alignment="center" verticalAlignment="center" text="0.7" id="iWJ-x2-yLU">
+                                                            <label alignment="center" verticalAlignment="center" text="0.7" textAlignment="center" id="iWJ-x2-yLU">
                                                                 <fontDescription key="font" type="system" pointSize="12"/>
                                                             </label>
                                                         </items>
                                                         <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
                                                     </group>
                                                 </button>
                                             </items>
@@ -133,7 +145,7 @@
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="220" y="345"/>
+            <point key="canvasLocation" x="219.52173913043478" y="344.55357142857144"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">

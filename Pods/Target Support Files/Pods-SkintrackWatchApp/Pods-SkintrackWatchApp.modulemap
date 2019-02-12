@@ -1,0 +1,6 @@
+framework module Pods_SkintrackWatchApp {
+  umbrella header "Pods-SkintrackWatchApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
