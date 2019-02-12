@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21820871221192C7001168D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21820870221192C7001168D1 /* AppDelegate.swift */; };
+		21820873221192C7001168D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21820872221192C7001168D1 /* ViewController.swift */; };
+		21820876221192C7001168D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21820874221192C7001168D1 /* Main.storyboard */; };
+		21820878221192C9001168D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21820877221192C9001168D1 /* Assets.xcassets */; };
+		2182087B221192C9001168D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21820879221192C9001168D1 /* LaunchScreen.storyboard */; };
+		21820880221192CA001168D1 /* SkintrackWatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2182087F221192CA001168D1 /* SkintrackWatchApp WatchKit App.app */; };
+		21820886221192CA001168D1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21820884221192CA001168D1 /* Interface.storyboard */; };
+		21820888221192CA001168D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21820887221192CA001168D1 /* Assets.xcassets */; };
+		2182088F221192CA001168D1 /* SkintrackWatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2182088E221192CA001168D1 /* SkintrackWatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		21820894221192CA001168D1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21820893221192CA001168D1 /* InterfaceController.swift */; };
+		21820896221192CA001168D1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21820895221192CA001168D1 /* ExtensionDelegate.swift */; };
+		21820898221192CA001168D1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21820897221192CA001168D1 /* NotificationController.swift */; };
+		2182089A221192CA001168D1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21820899221192CA001168D1 /* ComplicationController.swift */; };
+		2182089C221192CB001168D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2182089B221192CB001168D1 /* Assets.xcassets */; };
+		21C73C9B221280E600775E99 /* ArcProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C73C9A221280E600775E99 /* ArcProgressView.swift */; };
+		21C73C9C2212812B00775E99 /* ArcProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C73C9A221280E600775E99 /* ArcProgressView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21820881221192CA001168D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21820865221192C7001168D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182087E221192CA001168D1;
+			remoteInfo = "SkintrackWatchApp WatchKit App";
+		};
+		21820890221192CA001168D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21820865221192C7001168D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2182088D221192CA001168D1;
+			remoteInfo = "SkintrackWatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		218208A4221192CB001168D1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2182088F221192CA001168D1 /* SkintrackWatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		218208A8221192CB001168D1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				21820880221192CA001168D1 /* SkintrackWatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2182086D221192C7001168D1 /* SkintrackWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkintrackWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21820870221192C7001168D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21820872221192C7001168D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21820875221192C7001168D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21820877221192C9001168D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2182087A221192C9001168D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2182087C221192C9001168D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2182087F221192CA001168D1 /* SkintrackWatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkintrackWatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21820885221192CA001168D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		21820887221192CA001168D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21820889221192CA001168D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2182088E221192CA001168D1 /* SkintrackWatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkintrackWatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21820893221192CA001168D1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		21820895221192CA001168D1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		21820897221192CA001168D1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		21820899221192CA001168D1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		2182089B221192CB001168D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2182089D221192CB001168D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2182089E221192CB001168D1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		21C73C9A221280E600775E99 /* ArcProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArcProgressView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2182086A221192C7001168D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2182088B221192CA001168D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21820864221192C7001168D1 = {
+			isa = PBXGroup;
+			children = (
+				2182086F221192C7001168D1 /* SkintrackWatchApp */,
+				21820883221192CA001168D1 /* SkintrackWatchApp WatchKit App */,
+				21820892221192CA001168D1 /* SkintrackWatchApp WatchKit Extension */,
+				2182086E221192C7001168D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2182086E221192C7001168D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2182086D221192C7001168D1 /* SkintrackWatchApp.app */,
+				2182087F221192CA001168D1 /* SkintrackWatchApp WatchKit App.app */,
+				2182088E221192CA001168D1 /* SkintrackWatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2182086F221192C7001168D1 /* SkintrackWatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				21820870221192C7001168D1 /* AppDelegate.swift */,
+				21820872221192C7001168D1 /* ViewController.swift */,
+				21C73C9A221280E600775E99 /* ArcProgressView.swift */,
+				21820874221192C7001168D1 /* Main.storyboard */,
+				21820877221192C9001168D1 /* Assets.xcassets */,
+				21820879221192C9001168D1 /* LaunchScreen.storyboard */,
+				2182087C221192C9001168D1 /* Info.plist */,
+			);
+			path = SkintrackWatchApp;
+			sourceTree = "<group>";
+		};
+		21820883221192CA001168D1 /* SkintrackWatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				21820884221192CA001168D1 /* Interface.storyboard */,
+				21820887221192CA001168D1 /* Assets.xcassets */,
+				21820889221192CA001168D1 /* Info.plist */,
+			);
+			path = "SkintrackWatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		21820892221192CA001168D1 /* SkintrackWatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				21820893221192CA001168D1 /* InterfaceController.swift */,
+				21820895221192CA001168D1 /* ExtensionDelegate.swift */,
+				21820897221192CA001168D1 /* NotificationController.swift */,
+				21820899221192CA001168D1 /* ComplicationController.swift */,
+				2182089B221192CB001168D1 /* Assets.xcassets */,
+				2182089D221192CB001168D1 /* Info.plist */,
+				2182089E221192CB001168D1 /* PushNotificationPayload.apns */,
+			);
+			path = "SkintrackWatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2182086C221192C7001168D1 /* SkintrackWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218208A9221192CB001168D1 /* Build configuration list for PBXNativeTarget "SkintrackWatchApp" */;
+			buildPhases = (
+				21820869221192C7001168D1 /* Sources */,
+				2182086A221192C7001168D1 /* Frameworks */,
+				2182086B221192C7001168D1 /* Resources */,
+				218208A8221192CB001168D1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21820882221192CA001168D1 /* PBXTargetDependency */,
+			);
+			name = SkintrackWatchApp;
+			productName = SkintrackWatchApp;
+			productReference = 2182086D221192C7001168D1 /* SkintrackWatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2182087E221192CA001168D1 /* SkintrackWatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218208A5221192CB001168D1 /* Build configuration list for PBXNativeTarget "SkintrackWatchApp WatchKit App" */;
+			buildPhases = (
+				2182087D221192CA001168D1 /* Resources */,
+				218208A4221192CB001168D1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21820891221192CA001168D1 /* PBXTargetDependency */,
+			);
+			name = "SkintrackWatchApp WatchKit App";
+			productName = "SkintrackWatchApp WatchKit App";
+			productReference = 2182087F221192CA001168D1 /* SkintrackWatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2182088D221192CA001168D1 /* SkintrackWatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 218208A1221192CB001168D1 /* Build configuration list for PBXNativeTarget "SkintrackWatchApp WatchKit Extension" */;
+			buildPhases = (
+				2182088A221192CA001168D1 /* Sources */,
+				2182088B221192CA001168D1 /* Frameworks */,
+				2182088C221192CA001168D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkintrackWatchApp WatchKit Extension";
+			productName = "SkintrackWatchApp WatchKit Extension";
+			productReference = 2182088E221192CA001168D1 /* SkintrackWatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21820865221192C7001168D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rani;
+				TargetAttributes = {
+					2182086C221192C7001168D1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2182087E221192CA001168D1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2182088D221192CA001168D1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 21820868221192C7001168D1 /* Build configuration list for PBXProject "SkintrackWatchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21820864221192C7001168D1;
+			productRefGroup = 2182086E221192C7001168D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2182086C221192C7001168D1 /* SkintrackWatchApp */,
+				2182087E221192CA001168D1 /* SkintrackWatchApp WatchKit App */,
+				2182088D221192CA001168D1 /* SkintrackWatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2182086B221192C7001168D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2182087B221192C9001168D1 /* LaunchScreen.storyboard in Resources */,
+				21820878221192C9001168D1 /* Assets.xcassets in Resources */,
+				21820876221192C7001168D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2182087D221192CA001168D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21820888221192CA001168D1 /* Assets.xcassets in Resources */,
+				21820886221192CA001168D1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2182088C221192CA001168D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2182089C221192CB001168D1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21820869221192C7001168D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C73C9B221280E600775E99 /* ArcProgressView.swift in Sources */,
+				21820873221192C7001168D1 /* ViewController.swift in Sources */,
+				21820871221192C7001168D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2182088A221192CA001168D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21820898221192CA001168D1 /* NotificationController.swift in Sources */,
+				2182089A221192CA001168D1 /* ComplicationController.swift in Sources */,
+				21820896221192CA001168D1 /* ExtensionDelegate.swift in Sources */,
+				21820894221192CA001168D1 /* InterfaceController.swift in Sources */,
+				21C73C9C2212812B00775E99 /* ArcProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21820882221192CA001168D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182087E221192CA001168D1 /* SkintrackWatchApp WatchKit App */;
+			targetProxy = 21820881221192CA001168D1 /* PBXContainerItemProxy */;
+		};
+		21820891221192CA001168D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2182088D221192CA001168D1 /* SkintrackWatchApp WatchKit Extension */;
+			targetProxy = 21820890221192CA001168D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21820874221192C7001168D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21820875221192C7001168D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21820879221192C9001168D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2182087A221192C9001168D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		21820884221192CA001168D1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21820885221192CA001168D1 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2182089F221192CB001168D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		218208A0221192CB001168D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		218208A2221192CB001168D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFT56DS286;
+				INFOPLIST_FILE = "SkintrackWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rani.SkintrackWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		218208A3221192CB001168D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFT56DS286;
+				INFOPLIST_FILE = "SkintrackWatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rani.SkintrackWatchApp.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		218208A6221192CB001168D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFT56DS286;
+				IBSC_MODULE = SkintrackWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "SkintrackWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rani.SkintrackWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		218208A7221192CB001168D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFT56DS286;
+				IBSC_MODULE = SkintrackWatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "SkintrackWatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rani.SkintrackWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		218208AA221192CB001168D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFT56DS286;
+				INFOPLIST_FILE = SkintrackWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rani.SkintrackWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		218208AB221192CB001168D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JFT56DS286;
+				INFOPLIST_FILE = SkintrackWatchApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rani.SkintrackWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21820868221192C7001168D1 /* Build configuration list for PBXProject "SkintrackWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2182089F221192CB001168D1 /* Debug */,
+				218208A0221192CB001168D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218208A1221192CB001168D1 /* Build configuration list for PBXNativeTarget "SkintrackWatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218208A2221192CB001168D1 /* Debug */,
+				218208A3221192CB001168D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218208A5221192CB001168D1 /* Build configuration list for PBXNativeTarget "SkintrackWatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218208A6221192CB001168D1 /* Debug */,
+				218208A7221192CB001168D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		218208A9221192CB001168D1 /* Build configuration list for PBXNativeTarget "SkintrackWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				218208AA221192CB001168D1 /* Debug */,
+				218208AB221192CB001168D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21820865221192C7001168D1 /* Project object */;
+}
