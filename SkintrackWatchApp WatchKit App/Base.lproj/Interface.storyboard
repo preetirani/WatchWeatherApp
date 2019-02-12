@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
-    <device id="watch38" orientation="portrait">
+    <device id="watch44" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,133 +14,128 @@
             <objects>
                 <controller identifier="Dashboard" title="Dashboard" spacing="5" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="SkintrackWatchApp_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" height="1" alignment="center" verticalAlignment="center" layout="vertical" id="qCv-ig-74D">
+                        <group width="1" alignment="left" id="jlE-5C-NG8" userLabel="UVandAQIGroup">
                             <items>
-                                <group width="1" alignment="left" id="jlE-5C-NG8" userLabel="UVandAQIGroup">
+                                <group alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="of2-v3-o7k">
                                     <items>
-                                        <group alignment="left" verticalAlignment="center" layout="vertical" spacing="0.0" id="of2-v3-o7k">
-                                            <items>
-                                                <label alignment="center" verticalAlignment="center" text="UV" id="XFz-82-O5g">
-                                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                                </label>
-                                                <button alignment="left" verticalAlignment="center" id="Xet-sJ-Mz2">
-                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="pzO-LO-BxC" userLabel="UVGroup">
-                                                        <items>
-                                                            <label alignment="center" verticalAlignment="center" text="2" textAlignment="center" id="sGz-Fg-Jv0">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
-                                                            </label>
-                                                        </items>
-                                                        <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
-                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
-                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
-                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
-                                                    </group>
-                                                </button>
-                                            </items>
-                                        </group>
-                                        <group alignment="right" verticalAlignment="center" layout="vertical" spacing="0.0" id="X5j-ad-kLH">
-                                            <items>
-                                                <label alignment="center" verticalAlignment="center" text="BAQI" id="XsD-ON-Cuv">
-                                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                                </label>
-                                                <button alignment="right" verticalAlignment="center" id="ROf-Au-c9e">
-                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="ebs-gK-gtC" userLabel="AQIGroup">
-                                                        <items>
-                                                            <label alignment="center" verticalAlignment="center" text="100" textAlignment="center" id="Opa-XA-jyU">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
-                                                            </label>
-                                                        </items>
-                                                        <color key="backgroundColor" red="0.3921568627" green="0.67450980390000004" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
-                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
-                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
-                                                    </group>
-                                                </button>
-                                            </items>
-                                        </group>
-                                        <group alignment="center" verticalAlignment="center" spacing="2" id="UIB-nK-iKS">
-                                            <items>
-                                                <button alignment="center" verticalAlignment="center" backgroundImage="locationIconBlue" id="ypQ-cd-XEm"/>
-                                                <label alignment="center" verticalAlignment="center" text="Noida" id="aKk-ZY-xIz">
-                                                    <fontDescription key="font" type="system" pointSize="14"/>
-                                                </label>
-                                            </items>
-                                        </group>
+                                        <label alignment="center" verticalAlignment="center" text="UV" id="XFz-82-O5g">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <button alignment="left" verticalAlignment="center" id="Xet-sJ-Mz2">
+                                            <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="pzO-LO-BxC" userLabel="UVGroup">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="2" textAlignment="center" id="sGz-Fg-Jv0">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                <variation key="device=watch42mm" height="40" radius="20" width="40"/>
+                                            </group>
+                                        </button>
                                     </items>
                                 </group>
-                                <group width="1" alignment="left" verticalAlignment="bottom" id="SPW-MN-QgW" userLabel="PollenAndTempGroup">
+                                <group alignment="right" verticalAlignment="center" layout="vertical" spacing="0.0" id="X5j-ad-kLH">
                                     <items>
-                                        <group alignment="right" layout="vertical" spacing="0.0" id="q9e-77-ggp">
-                                            <items>
-                                                <label alignment="center" verticalAlignment="center" text="Temp" id="Q0I-0N-qyf">
-                                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                                </label>
-                                                <button alignment="right" verticalAlignment="center" id="ZCs-rl-SR3" userLabel="TempButton">
-                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="TIC-lW-OIP">
-                                                        <items>
-                                                            <label width="0.80000000000000004" widthAdjustment="2" height="1" heightAdjustment="2" alignment="center" verticalAlignment="center" text="69 F" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="A5n-8N-hiG">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
-                                                            </label>
-                                                        </items>
-                                                        <color key="backgroundColor" red="0.3921568627" green="0.67450980390000004" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
-                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
-                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
-                                                    </group>
-                                                </button>
-                                            </items>
-                                        </group>
-                                        <group alignment="left" layout="vertical" spacing="0.0" id="oG9-Or-hsj">
-                                            <items>
-                                                <label alignment="center" verticalAlignment="center" text="Pollen" id="ZlA-vh-QCv">
-                                                    <fontDescription key="font" type="system" pointSize="10"/>
-                                                </label>
-                                                <button alignment="left" verticalAlignment="center" id="JQz-8w-PfF">
-                                                    <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="MbJ-bN-xIw" userLabel="UVGroup">
-                                                        <items>
-                                                            <label alignment="center" verticalAlignment="center" text="0.7" textAlignment="center" id="iWJ-x2-yLU">
-                                                                <fontDescription key="font" type="system" pointSize="12"/>
-                                                            </label>
-                                                        </items>
-                                                        <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
-                                                        <variation key="device=watch38mm" height="30" radius="15" width="30"/>
-                                                        <variation key="device=watch40mm" height="40" radius="20" width="40"/>
-                                                        <variation key="device=watch42mm" height="40" radius="20" width="40"/>
-                                                    </group>
-                                                </button>
-                                            </items>
-                                        </group>
+                                        <label alignment="center" verticalAlignment="center" text="BAQI" id="XsD-ON-Cuv">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <button alignment="right" verticalAlignment="center" id="ROf-Au-c9e">
+                                            <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="ebs-gK-gtC" userLabel="AQIGroup">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="100" textAlignment="center" id="Opa-XA-jyU">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.3921568627" green="0.67450980390000004" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                <variation key="device=watch42mm" height="40" radius="20" width="40"/>
+                                            </group>
+                                        </button>
                                     </items>
                                 </group>
-                                <group width="1" height="0.29999999999999999" alignment="center" verticalAlignment="center" layout="overlap" radius="6" spacing="0.0" id="sx2-Mq-h7L" userLabel="UVProgressGroup">
+                                <group alignment="center" verticalAlignment="center" spacing="2" id="UIB-nK-iKS">
                                     <items>
-                                        <group width="1" widthAdjustment="-2" height="1" heightAdjustment="-2" alignment="center" verticalAlignment="center" spacing="0.0" id="8Pk-or-IDN">
-                                            <items>
-                                                <button alignment="left" verticalAlignment="center" id="IbH-j4-Ext">
-                                                    <group key="contentGroup" width="17" height="1" alignment="left" layout="overlap" radius="0.0" id="H3y-Dg-Mp1">
-                                                        <color key="backgroundColor" red="0.0" green="0.68235000000000001" blue="0.92940999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    </group>
-                                                </button>
-                                            </items>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </group>
-                                        <group width="1" height="1" alignment="left" layout="vertical" spacing="0.0" id="IOR-Bv-3RX">
-                                            <items>
-                                                <label alignment="center" verticalAlignment="center" text="20%" textAlignment="center" id="C6d-EO-BoS">
-                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="font" type="boldSystem" pointSize="16"/>
-                                                </label>
-                                                <label alignment="center" verticalAlignment="center" text="of max sunstock" textAlignment="center" id="Cg4-bp-2g7">
-                                                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    <fontDescription key="font" type="system" weight="thin" pointSize="8"/>
-                                                </label>
-                                            </items>
-                                        </group>
+                                        <button alignment="center" verticalAlignment="center" backgroundImage="locationIconBlue" id="ypQ-cd-XEm"/>
+                                        <label alignment="center" verticalAlignment="center" text="Noida" id="aKk-ZY-xIz">
+                                            <fontDescription key="font" type="system" pointSize="14"/>
+                                        </label>
                                     </items>
-                                    <color key="backgroundColor" red="0.0" green="0.68235000000000001" blue="0.92940999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </group>
                             </items>
-                            <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                        </group>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="SPW-MN-QgW" userLabel="PollenAndTempGroup">
+                            <items>
+                                <group alignment="right" layout="vertical" spacing="0.0" id="q9e-77-ggp">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="Temp" id="Q0I-0N-qyf">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <button alignment="right" verticalAlignment="center" id="ZCs-rl-SR3" userLabel="TempButton">
+                                            <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="TIC-lW-OIP">
+                                                <items>
+                                                    <label width="0.80000000000000004" widthAdjustment="2" height="1" heightAdjustment="2" alignment="center" verticalAlignment="center" text="69 F" textAlignment="center" minimumScaleFactor="0.69999999999999996" id="A5n-8N-hiG">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" red="0.3921568627" green="0.67450980390000004" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                <variation key="device=watch42mm" height="40" radius="20" width="40"/>
+                                            </group>
+                                        </button>
+                                    </items>
+                                </group>
+                                <group alignment="left" layout="vertical" spacing="0.0" id="oG9-Or-hsj">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="Pollen" id="ZlA-vh-QCv">
+                                            <fontDescription key="font" type="system" pointSize="10"/>
+                                        </label>
+                                        <button alignment="left" verticalAlignment="center" id="JQz-8w-PfF">
+                                            <group key="contentGroup" width="50" height="50" alignment="left" layout="vertical" radius="25" id="MbJ-bN-xIw" userLabel="UVGroup">
+                                                <items>
+                                                    <label alignment="center" verticalAlignment="center" text="0.7" textAlignment="center" id="iWJ-x2-yLU">
+                                                        <fontDescription key="font" type="system" pointSize="12"/>
+                                                    </label>
+                                                </items>
+                                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                                <variation key="device=watch38mm" height="30" radius="15" width="30"/>
+                                                <variation key="device=watch40mm" height="40" radius="20" width="40"/>
+                                                <variation key="device=watch42mm" height="40" radius="20" width="40"/>
+                                            </group>
+                                        </button>
+                                    </items>
+                                </group>
+                            </items>
+                        </group>
+                        <group width="1" height="0.27000000000000002" alignment="center" verticalAlignment="center" layout="overlap" radius="6" spacing="0.0" id="sx2-Mq-h7L" userLabel="UVProgressGroup">
+                            <items>
+                                <group width="1" widthAdjustment="-2" height="1" heightAdjustment="-2" alignment="center" verticalAlignment="center" spacing="0.0" id="8Pk-or-IDN">
+                                    <items>
+                                        <button alignment="left" verticalAlignment="center" id="IbH-j4-Ext">
+                                            <group key="contentGroup" width="17" height="1" alignment="left" layout="overlap" radius="0.0" id="H3y-Dg-Mp1">
+                                                <color key="backgroundColor" red="0.0" green="0.68235000000000001" blue="0.92940999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </group>
+                                        </button>
+                                    </items>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </group>
+                                <group width="1" height="1" alignment="left" layout="vertical" spacing="0.0" id="IOR-Bv-3RX">
+                                    <items>
+                                        <label alignment="center" verticalAlignment="center" text="20%" textAlignment="center" id="C6d-EO-BoS">
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="font" type="boldSystem" pointSize="16"/>
+                                        </label>
+                                        <label alignment="center" verticalAlignment="center" text="of max sunstock" textAlignment="center" id="Cg4-bp-2g7">
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="font" type="system" weight="thin" pointSize="8"/>
+                                        </label>
+                                    </items>
+                                </group>
+                            </items>
+                            <color key="backgroundColor" red="0.0" green="0.68235000000000001" blue="0.92940999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         </group>
                     </items>
                 </controller>
@@ -179,4 +174,5 @@
             <point key="canvasLocation" x="468" y="345"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.0" green="0.68235000000000001" blue="0.92940999999999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
